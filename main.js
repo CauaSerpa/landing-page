@@ -31,8 +31,8 @@ const sr = ScrollReveal({
 	reset: true
 })
 //scroll home
-sr.reveal('.image_5',{interval: 200})
-sr.reveal('.image_4',{interval: 200})
-sr.reveal('.image_1',{})
-sr.reveal('.home__title',{delay: 200})
-sr.reveal('.buttom',{delay: 400})
+sr.reveal('.image_5',{})
+sr.reveal('.image_4',{delay: 200})
+sr.reveal('.image_1',{delay: 400})
+sr.reveal('.home__title',{delay: 600})
+sr.reveal('.buttom',{delay: 800})
