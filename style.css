@@ -424,6 +424,7 @@ img
 		left: 11vw;
 		display: flex;
 		flex-direction: column;
+		z-index: 200;
 	}
 	.home__container img
 	{
