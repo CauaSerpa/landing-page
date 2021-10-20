@@ -263,11 +263,6 @@ img
 {
 	transform: scale(1.5);
 }
-.home__container
-{
-	display: flex;
-	z-index: 200;
-}
 .home__container .image_1
 {
 	position: relative;
