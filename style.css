@@ -206,6 +206,7 @@ img
 	color: var(--second-color);
 	font-size: 2rem;
 	cursor: pointer;
+	margin-right: var(--mb-2);
 	z-index: 10;
 }
 /* Active menu */
