@@ -265,9 +265,7 @@ img
 }
 .home__container
 {
-	position: absolute;
-	top: 20rem;
-	left: 11vw;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 }
@@ -415,6 +413,14 @@ img
 		position: absolute;
 		top: -10vh;
 		right: 7rem;
+	}
+	.home__container
+	{
+		position: absolute;
+		top: 20rem;
+		left: 11vw;
+		display: flex;
+		flex-direction: column;
 	}
 	.home__container img
 	{
