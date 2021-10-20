@@ -142,20 +142,28 @@ img
 	justify-content: space-between;
 	align-items: center;
 	font-weight: var(--font-semi);
+	z-index: 10;
 }
 @media screen and (max-width: 768px)
 {
 	.nav__container
 	{
 		position: fixed;
-		top: var(--header-height);
+		top: 0;
 		right: -100%;
-		width: 80%;
+		width: 100%;
 		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
 		padding: 2rem;
 		background-color: var(--third-color);
 		background-image: url('background.png');
-		transition: .5s;
+		background-size: cover;
+		transition: .4s;
+		z-index: 1;
 	}
 
 }
@@ -182,6 +190,13 @@ img
 	top: 2rem;
 	background-color: var(--first-color);
 }
+.nav__logo
+{
+	position: fixed;
+	top: var(--mb-1);
+	left: var(--mb-2);
+	z-index: 10;
+}
 .logo__img
 {
 	width: 300px;
@@ -191,6 +206,7 @@ img
 	color: var(--second-color);
 	font-size: 2rem;
 	cursor: pointer;
+	z-index: 10;
 }
 /* Active menu */
 .active::after
@@ -267,7 +283,7 @@ img
 	font-size: var(--big-font-size);
 	z-index: 11;
 }
-.home__button
+.home__buttom
 {
 	position: relative;
 	top: 2rem;
@@ -275,7 +291,7 @@ img
 	align-items: center;
 	z-index: 10;
 }
-.home__button a
+.home__buttom a
 {
 	position: relative;
 	width: 150px;
@@ -287,7 +303,7 @@ img
 	align-items: center;
 	z-index: 10;
 }
-.home__button a:before
+.home__buttom a:before
 {
 	content: '';
 	position: absolute;
@@ -299,7 +315,7 @@ img
 	background-size: cover;
 	z-index: 10;
 }
-.home__button a span
+.home__buttom a span
 {
 	position: relative;
 	z-index: 10;
@@ -423,7 +439,7 @@ img
 		top: 30rem;
 		left: 11vw;
 	}
-	.home__button
+	.home__buttom
 	{
 		position: absolute;
 		top: 40rem;
