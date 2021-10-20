@@ -425,20 +425,15 @@ img
 	}
 	.home__container
 	{
+		position: absolute;
+		top: 12rem;
+		left: 12rem;
+		display: flex;
+		flex-direction: column;
 	}
 	.home__container img
 	{
-		position: relative;
 		width: 600px;
-		top: 12rem;
-		left: 10rem;
-		text-align: left;
-	}
-	.home__title
-	{
-		position: absolute;
-		top: 30rem;
-		left: 11vw;
 	}
 	.home__buttom
 	{
